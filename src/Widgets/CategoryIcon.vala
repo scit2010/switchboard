@@ -26,7 +26,7 @@ namespace Switchboard {
 
         public CategoryIcon (Switchboard.Plug plug_item) {
             plug = plug_item;
-            width_request = 144;
+            width_request = 120;
 
             var icon = new Gtk.Image.from_icon_name (plug.icon, Gtk.IconSize.DIALOG);
             icon.tooltip_text = plug.description;
