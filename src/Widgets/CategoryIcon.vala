@@ -28,7 +28,7 @@ namespace Switchboard {
             plug = plug_item;
             width_request = 144;
 
-            var icon = new Gtk.Image.from_icon_name (plug.icon, Gtk.IconSize.DND);
+            var icon = new Gtk.Image.from_icon_name (plug.icon, Gtk.IconSize.DIALOG);
             icon.tooltip_text = plug.description;
 
             var plug_name = new Gtk.Label (plug.display_name);
